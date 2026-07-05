@@ -10,5 +10,4 @@
 
 ## 最近更新
 
-- [计算机网络](./computer-network)
 - [Git 常用命令](./git-cheatsheet)
