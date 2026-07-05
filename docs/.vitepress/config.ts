@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Jiax‘’s notes',
+  title: "Jia’s notes",
   description: '个人知识库 / 笔记',
 
   themeConfig: {
@@ -54,22 +54,14 @@ export default defineConfig({
 
     // 页面底部
     footer: {
-      message: '基于 VitePress 构建',
-      copyright: 'Copyright © 2026',
+      message: 'Copyright © 2026',
+      copyright: '© 2026 Jaxon',
     },
-
-    // 编辑链接
-    editLink: {
-      pattern: 'https://github.com/JiaXinTang-xiang/my_note/edit/main/docs/:path',
-      text: '在 GitHub 上编辑此页',
-    },
-
-    // 上次更新时间
-    lastUpdated: true,
   },
 
   // Markdown 配置
   markdown: {
     lineNumbers: true,
   },
+  lastUpdated: true,
 })
