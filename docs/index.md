@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: Jaxon
-  text: llearning-notes-site
+  text: Learning-notes-site
   tagline: 路漫漫其修远兮，吾将上下而求索。
   image:
     src: /logo.png

@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'My Notes',
+  title: 'Jiax‘’s notes',
   description: '个人知识库 / 笔记',
 
   themeConfig: {
