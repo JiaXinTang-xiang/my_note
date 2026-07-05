@@ -46,7 +46,7 @@ export default defineConfig({
 
     // 社交链接（右上角图标）
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/' },
+      { icon: 'github', link: 'https://github.com/JiaXinTang-xiang' },
     ],
 
     // 页面底部
@@ -57,7 +57,7 @@ export default defineConfig({
 
     // 编辑链接
     editLink: {
-      pattern: 'https://github.com/yourname/my-notes/edit/main/docs/:path',
+      pattern: 'https://github.com/JiaXinTang-xiang/my_note/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页',
     },
 

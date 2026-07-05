@@ -6,7 +6,7 @@ hero:
   text: 个人知识库
   tagline: 记录学习过程中的笔记、备忘和总结
   image:
-    src: /logo.svg
+    src: /logo.png
     alt: logo
   actions:
     - theme: brand
