@@ -1,8 +1,12 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Jia’s notes",
+  title: "Jia's notes",
   description: '个人知识库 / 笔记',
+
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+  ],
 
   themeConfig: {
     // 顶部导航
