@@ -14,7 +14,7 @@ hero:
       link: /notes/
     - theme: alt
       text: GitHub
-      link: https://github.com/
+      link: https://github.com/JiaXinTang-xiang
 
 features:
   - icon: 📝
@@ -25,10 +25,3 @@ features:
     details: 内置本地搜索，快速找到你需要的内容
 
 ---
-
-<style>
-:root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
-}
-</style>
