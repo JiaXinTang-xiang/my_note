@@ -23,7 +23,6 @@ export default defineConfig({
           text: '📘 学习笔记',
           collapsed: false,
           items: [
-            { text: '计算机网络', link: '/notes/computer-network' },
             { text: '操作系统', link: '/notes/operating-system' },
           ],
         },
