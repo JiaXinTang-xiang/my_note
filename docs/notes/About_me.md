@@ -1,4 +1,4 @@
-# 关于我
+## 关于我
 
 你好，我是「嘉心糖」，就读于桂林航天工业学院电子信息工程专业，24 级。
 
@@ -13,19 +13,18 @@
 以大一身份考核加入实验室，参与老师科研项目及学科竞赛。
 
 ## 技能
+熟练使用 vibecoding 和配置claude codex模型(大怨种)
 
-| 类别 | 技术 |
-|------|------|
-| 编程语言 | Python、C、Java |
-| AI / 模型 | PyTorch、YOLO、Claude Codex |
-| 计算机视觉 | OpenCV、ORB-SLAM3 |
-| 自主导航 | ROS 2、Cartographer、Nav2 |
-| 前端 / 文档 | Astro、VitePress、Markdown |
-| 操作系统 | Ubuntu、macOS、Windows |
-| DevOps | Git、GitHub Actions、Docker、Kubernetes |
-| API 工具 | Postman、ApiFox |
-| Web 服务器 | Caddy、Nginx |
-| 云平台 | Cloudflare、Azure |
+  编程语言  Python、C、Java 
+  AI / 模型  PyTorch、YOLO、Claude Codex 
+  计算机视觉  OpenCV、ORB-SLAM3 
+  自主导航  ROS 2、Cartographer、Nav2 
+  前端 / 文档  Astro、VitePress、Markdown 
+  操作系统  Ubuntu、macOS、Windows 
+  DevOps  Git、GitHub Actions、Docker、Kubernetes 
+  API 工具  Postman、ApiFox 
+  Web 服务器  Caddy、Nginx 
+  云平台  Cloudflare、Azure 
 
 ## 联系方式
 
