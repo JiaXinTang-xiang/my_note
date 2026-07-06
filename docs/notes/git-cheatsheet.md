@@ -19,6 +19,10 @@ git add .                    # 添加所有修改
 # 提交
 git commit -m "commit message"
 git commit --amend           # 修改上次提交
+
+# 查看历史
+git log --oneline --graph --all
+git reflog                   # 查看所有操作记录
 ```
 
 ## 分支管理
@@ -26,21 +30,21 @@ git commit --amend           # 修改上次提交
 ```bash
 # 查看分支
 git branch                   # 本地分支
-git branch -r               # 远程分支
-git branch -a               # 所有分支
+git branch -r                # 远程分支
+git branch -a                # 所有分支
 
 # 创建/切换分支
 git branch <name>
-git checkout <name>
-git checkout -b <name>      # 创建并切换
+git switch <name>            # Git 2.23+ 推荐（替代 checkout）
+git switch -c <name>         # 创建并切换
 
 # 合并分支
 git merge <branch>
 git rebase <branch>
 
 # 删除分支
-git branch -d <name>        # 本地
-git push origin --delete <name>  # 远程
+git branch -d <name>              # 本地
+git push origin --delete <name>   # 远程
 ```
 
 ## 远程仓库
@@ -60,21 +64,17 @@ git remote -v
 ## 撤销操作
 
 ```bash
-# 撤销工作区修改
-git checkout -- <file>
-git restore <file>
+# 撤销工作区修改（两种写法等价）
+git restore <file>                # Git 2.23+ 推荐
+git checkout -- <file>            # 旧写法
 
-# 撤销暂存区
-git reset HEAD <file>
-git restore --staged <file>
+# 撤销暂存区（两种写法等价）
+git restore --staged <file>       # Git 2.23+ 推荐
+git reset HEAD <file>             # 旧写法
 
 # 回退版本
-git reset --soft HEAD^      # 保留修改
-git reset --hard HEAD^      # 丢弃修改
-
-# 查看历史
-git log --oneline --graph --all
-git reflog                   # 查看所有操作记录
+git reset --soft HEAD~1           # 保留修改（HEAD^ 和 HEAD~1 等价）
+git reset --hard HEAD~1           # 丢弃修改
 ```
 
 ## 高级技巧
@@ -89,6 +89,7 @@ git cherry-pick <commit>
 # 储藏修改
 git stash
 git stash pop
+git stash list                   # 查看储藏列表
 
 # 合并多个提交
 git rebase -i HEAD~3

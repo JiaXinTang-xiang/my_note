@@ -18,7 +18,7 @@ export default defineConfig({
     // 侧边栏
     sidebar: {
       '/notes/': [
-        { text: '关于我', link: '/notes/about-me' },
+        { text: '关于我', link: '/notes/About_me' },
         {
           text: '📘 学习笔记',
           collapsed: false,
@@ -53,7 +53,7 @@ export default defineConfig({
 
     // 社交链接（右上角图标）
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/JiaXinTang-xiang' },
+      { icon: 'github', link: 'https://github.com/jiaxintang-xiang' },
     ],
 
     // 页面底部
