@@ -37,7 +37,7 @@ export default defineConfig({
             { text: '3-中断与定时器', link: '/notes/微处理器与接口技术/3-中断与定时器' },
             { text: '4-串行通信', link: '/notes/微处理器与接口技术/4-串行通信' },
             { text: '5-外设扩展-I2C-SPI', link: '/notes/微处理器与接口技术/5-外设扩展-I2C-SPI' },
-            { text: '6-刷题', link: '/notes/微处理器与接口技术/6-刷题' },
+            { text: '6-刷题1', link: '/notes/微处理器与接口技术/6-刷题1' },
             { text: '7-重难点', link: '/notes/微处理器与接口技术/7-重难点' },
             { text: '8-刷题2', link: '/notes/微处理器与接口技术/8-刷题2' },
             { text: '9-代码参考', link: '/notes/微处理器与接口技术/9-代码' },
@@ -46,6 +46,7 @@ export default defineConfig({
       ],
     },
 
+    
     // 搜索
     search: {
       provider: 'local',
