@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import mathjax3 from 'markdown-it-mathjax3'
 
 export default defineConfig({
   title: "JiaXin's notes",
@@ -61,6 +62,9 @@ export default defineConfig({
   // Markdown 配置
   markdown: {
     lineNumbers: true,
+    config: (md) => {
+      md.use(mathjax3)
+    },
   },
   lastUpdated: true,
 })
