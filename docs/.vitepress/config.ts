@@ -23,23 +23,34 @@ export default defineConfig({
           text: '📘 学习笔记',
           collapsed: false,
           items: [
-            { text: '操作系统', link: '/notes/operating-system' },
+            { text: '操作系统', link: '/notes/学习笔记/operating-system' },
           ],
         },
         {
           text: '🛠 工具 / 环境',
           collapsed: true,
           items: [
-            { text: 'Git 常用命令', link: '/notes/git-cheatsheet' },
-            { text: 'Linux 笔记', link: '/notes/linux-notes' },
+            { text: 'Git 常用命令', link: '/notes/工具环境/git-cheatsheet' },
+            { text: 'Linux 笔记', link: '/notes/工具环境/linux-notes' },
           ],
         },
         {
           text: '📝 编程语言',
           collapsed: true,
           items: [
-            { text: 'TypeScript', link: '/notes/typescript' },
-            { text: 'Rust', link: '/notes/rust' },
+            { text: 'TypeScript', link: '/notes/编程语言/typescript' },
+            { text: 'Rust', link: '/notes/编程语言/rust' },
+          ],
+        },
+        {
+          text: '💻 微处理器与接口技术',
+          collapsed: false,
+          items: [
+            { text: '1-单片机基础与硬件', link: '/notes/微处理器与接口技术/1-单片机基础与硬件' },
+            { text: '2-显示接口', link: '/notes/微处理器与接口技术/2-显示接口' },
+            { text: '3-中断与定时器', link: '/notes/微处理器与接口技术/3-中断与定时器' },
+            { text: '4-串行通信', link: '/notes/微处理器与接口技术/4-串行通信' },
+            { text: '5-外设扩展-I2C-SPI', link: '/notes/微处理器与接口技术/5-外设扩展-I2C-SPI' },
           ],
         },
       ],
