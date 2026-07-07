@@ -37,6 +37,7 @@ export default defineConfig({
             { text: '3-中断与定时器', link: '/notes/微处理器与接口技术/3-中断与定时器' },
             { text: '4-串行通信', link: '/notes/微处理器与接口技术/4-串行通信' },
             { text: '5-外设扩展-I2C-SPI', link: '/notes/微处理器与接口技术/5-外设扩展-I2C-SPI' },
+            { text: '6-刷题', link: '/notes/微处理器与接口技术/6-刷题' },
           ],
         },
       ],
