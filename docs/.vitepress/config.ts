@@ -39,6 +39,8 @@ export default defineConfig({
             { text: '5-外设扩展-I2C-SPI', link: '/notes/微处理器与接口技术/5-外设扩展-I2C-SPI' },
             { text: '6-刷题', link: '/notes/微处理器与接口技术/6-刷题' },
             { text: '7-重难点', link: '/notes/微处理器与接口技术/7-重难点' },
+            { text: '8-刷题2', link: '/notes/微处理器与接口技术/8-刷题2' },
+            { text: '9-代码参考', link: '/notes/微处理器与接口技术/9-代码' },
           ],
         },
       ],
