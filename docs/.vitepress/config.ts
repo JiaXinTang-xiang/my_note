@@ -20,21 +20,6 @@ export default defineConfig({
       '/notes/': [
         { text: '关于我', link: '/notes/About_me' },
         {
-          text: '📘 学习笔记',
-          collapsed: false,
-          items: [
-            { text: '操作系统', link: '/notes/学习笔记/operating-system' },
-          ],
-        },
-        {
-          text: '🛠 工具 / 环境',
-          collapsed: true,
-          items: [
-            { text: 'Git 常用命令', link: '/notes/工具环境/git-cheatsheet' },
-            { text: 'Linux 笔记', link: '/notes/工具环境/linux-notes' },
-          ],
-        },
-        {
           text: '📝 编程语言',
           collapsed: true,
           items: [
