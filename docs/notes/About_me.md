@@ -15,16 +15,16 @@
 ## 技能
 熟练使用 vibecoding 和配置claude codex模型(大怨种)
 
-  编程语言  Python、C、Java 
-  AI / 模型  PyTorch、YOLO、Claude Codex 
-  计算机视觉  OpenCV、ORB-SLAM3 
-  自主导航  ROS 2、Cartographer、Nav2 
-  前端 / 文档  Astro、VitePress、Markdown 
-  操作系统  Ubuntu、macOS、Windows 
-  DevOps  Git、GitHub Actions、Docker、Kubernetes 
-  API 工具  Postman、ApiFox 
-  Web 服务器  Caddy、Nginx 
-  云平台  Cloudflare、Azure 
+- 编程语言  Python、C、Java 
+- AI / 模型  PyTorch、YOLO、Claude Codex 
+- 计算机视觉  OpenCV、ORB-SLAM3 
+- 自主导航  ROS 2、Cartographer、Nav2 
+- 前端 / 文档  Astro、VitePress、Markdown 
+- 操作系统  Ubuntu、macOS、Windows 
+- DevOps  Git、GitHub Actions、Docker、Kubernetes 
+- API 工具  Postman、ApiFox 
+- Web 服务器  Caddy、Nginx 
+- 云平台  Cloudflare、Azure 
 
 ## 联系方式
 
