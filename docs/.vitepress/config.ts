@@ -21,6 +21,13 @@ export default defineConfig({
       '/notes/': [
         { text: '关于我', link: '/notes/About_me' },
         {
+          text: '📚 读书笔记',
+          collapsed: false,
+          items: [
+            { text: '人间失格', link: '/notes/读书笔记/1-人间失格' },
+          ],
+        },
+        {
           text: '📝 编程语言',
           collapsed: true,
           items: [
